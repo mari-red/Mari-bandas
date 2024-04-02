@@ -32,15 +32,11 @@ public class Main {
         Pessoa paul = new Pessoa("Paul");
         Pessoa george = new Pessoa("George");
         Pessoa ringo = new Pessoa("Ringo");
-//        Pessoa intruso = new Pessoa("intruso");
-
 
         beatles.adicionarIntegrante(john);
         beatles.adicionarIntegrante(paul);
         beatles.adicionarIntegrante(george);
         beatles.adicionarIntegrante(ringo);
-//        beatles.adicionarIntegrante(intruso);
-
 
         System.out.println("Banda 1: " + coldplay.getNome());
         System.out.println("Número de integrantes: " + coldplay.getNumeroIntegrantes());
